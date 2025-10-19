@@ -49,7 +49,7 @@ export const Home = () => {
                 GitHub
               </a>
               <a
-                href="/resume.pdf"
+                href="/resume (5).pdf"
                 download="Nune_Sri_Pavan_Charan_Resume.pdf"
                 className="text-blue-500 hover:underline"
               >

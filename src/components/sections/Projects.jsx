@@ -1,44 +1,49 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 
-export const Projects = () => {
-  const projects = [
-    {
-      title: "E-Commerce Website",
-      description:
-        "Developed a full-stack e-commerce platform with authentication, cart management, and product filtering. Enhanced performance with API optimization, lazy loading, and responsive design using React.js.",
-      tech: ["React.js", "Product API"],
-    },
-    {
-      title: "Tourist Website (MERN Stack)",
-      description:
-        "Designed and implemented a full-stack tourism web application using React.js, Node.js, Express.js, and MongoDB. Integrated APIs for destination data, authentication, and booking management to enhance user experience and scalability.",
-      tech: ["React.js", "Node.js", "Express.js", "MongoDB"],
-    },
-    {
-      title: "Traffictelligence — Traffic Volume Estimation",
-      description:
-        "Engineered an ML-based traffic monitoring system that detects and counts vehicles from live video feeds. Leveraged YOLOv8 and OpenCV for real-time analytics to aid urban traffic management.",
-      tech: ["YOLOv8", "OpenCV", "Python"],
-    },
-    {
-      title: "Virtual Assistant",
-      description:
-        "Built a voice-controlled assistant integrating speech recognition, NLP, and text-to-speech for personalized automation. Streamlined everyday computing tasks with contextual understanding.",
-      tech: ["Python", "NLP", "SpeechRecognition"],
-    },
-    {
-      title: "YouTube Transcripter",
-      description:
-        "Automated YouTube audio extraction and transcription, converting speech to structured text. Reduced manual transcription effort by 90%.",
-      tech: ["Python", "PyTube", "SpeechRecognition"],
-    },
-    {
-      title: "Personal Portfolio",
-      description:
-        "Developed a personal portfolio website using React.js to showcase projects, skills, and experience with responsive design and smooth scrolling navigation.",
-      tech: ["React.js", "TailwindCSS"],
-    },
-  ];
+export const projects = [
+  {
+    title: "E-Commerce Website",
+    description:
+      "Developed a full-stack e-commerce platform with authentication, cart management, and product filtering. Enhanced performance with API optimization, lazy loading, and responsive design using React.js.",
+    tech: ["React.js", "Product API"],
+  },
+  {
+    title: "Tourist Website (MERN Stack)",
+    description:
+      "Designed and implemented a full-stack tourism web application using React.js, Node.js, Express.js, and MongoDB. Integrated APIs for destination data, authentication, and booking management to enhance user experience and scalability.",
+    tech: ["React.js", "Node.js", "Express.js", "MongoDB"],
+  },
+  {
+    title: "Traffictelligence — Traffic Volume Estimation",
+    description:
+      "Engineered an ML-based traffic monitoring system that detects and counts vehicles from live video feeds. Leveraged YOLOv8 and OpenCV for real-time analytics to aid urban traffic management.",
+    tech: ["YOLOv8", "OpenCV", "Python"],
+  },
+  {
+    title: "Real-Time Object Detection",
+    description:
+      "Developed a real-time object detection application using YOLO to identify and classify objects from live video feeds with optimized inference speed and accurate bounding box visualization.",
+    tech: ["YOLO", "OpenCV", "Python"],
+  },
+  {
+    title: "Virtual Assistant",
+    description:
+      "Built a voice-controlled assistant integrating speech recognition, NLP, and text-to-speech for personalized automation. Streamlined everyday computing tasks with contextual understanding.",
+    tech: ["Python", "NLP", "SpeechRecognition"],
+  },
+  {
+    title: "YouTube Transcripter",
+    description:
+      "Automated YouTube audio extraction and transcription, converting speech to structured text. Reduced manual transcription effort by 90%.",
+    tech: ["Python", "PyTube", "SpeechRecognition"],
+  },
+  {
+    title: "Personal Portfolio",
+    description:
+      "Developed a personal portfolio website using React.js to showcase projects, skills, and experience with responsive design and smooth scrolling navigation.",
+    tech: ["React.js", "TailwindCSS"],
+  },
+];
 
   return (
     <section

@@ -45,6 +45,7 @@ export const projects = [
   },
 ];
 
+export const Projects = () => {
   return (
     <section
       id="projects"
@@ -64,6 +65,7 @@ export const projects = [
               >
                 <h3 className="text-xl font-bold mb-2">{project.title}</h3>
                 <p className="text-gray-400 mb-4">{project.description}</p>
+
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tech.map((tech, key) => (
                     <span
@@ -74,6 +76,7 @@ export const projects = [
                     </span>
                   ))}
                 </div>
+
                 <div className="flex justify-between items-center">
                   <a
                     href="#"
@@ -89,4 +92,4 @@ export const projects = [
       </RevealOnScroll>
     </section>
   );
-};
+};  // closes Projects component
